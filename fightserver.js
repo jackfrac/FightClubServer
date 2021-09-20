@@ -9,8 +9,8 @@ const ByteBuffer = require('bytebuffer')
 const atob = require('atob');
 const Long = ByteBuffer.Long;
 
-const privateKeys = ['5KkY8ADG1HXJLFria1B9oFamdD26yQhWWGwbVPp6ExZJjzM9ABY'];
-const serverPrivateKey = '5KkY8ADG1HXJLFria1B9oFamdD26yQhWWGwbVPp6ExZJjzM9ABY';
+const privateKeys = ['**'];
+const serverPrivateKey = '**';
 
 const signatureProvider = new JsSignatureProvider(privateKeys);
 const rpc = new JsonRpc('https://chain.wax.io', {fetch}); //required to read blockchain state
